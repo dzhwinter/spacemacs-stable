@@ -38,8 +38,8 @@ To use this contribution layer add it to your =~/.spacemacs=
 |-------------+-----------------------------|
 | ~SPC m b b~ | show the SQLi buffer name   |
 | ~SPC m b s~ | set the SQLi buffer         |
-| ~SPC m l a~ | List all objects            |
 | ~SPC m l t~ | list all objects in a table |
+| ~SPC m l a~ | List all objects            |
 
 *** Send SQL queries to SQLi:
 

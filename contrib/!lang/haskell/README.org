@@ -8,11 +8,11 @@
  - [[#install][Install]]
      - [[#layer][Layer]]
      - [[#cabal-packages][Cabal packages]]
-     - [[#os-x][OS X]]
      - [[#optional-extras][Optional extras]]
          - [[#ghci-ng-support][GHCi-ng support]]
          - [[#structured-haskell-mode][structured-haskell-mode]]
          - [[#hindent][hindent]]
+     - [[#os-x][OS X]]
  - [[#key-bindings][Key bindings]]
      - [[#documentation][Documentation]]
      - [[#debug][Debug]]
@@ -72,11 +72,6 @@ your =.spacemacs= file:
 
 *Note:* it is important to add the path in the =dotspacemacs/init= function,
 so that the path is added before any layers is loaded.
-
-** OS X
-
-Note that =emacs.app= for OS X does not pick up =$PATH= from =~/.bashrc= or
-=~/.zshrc= when launched from outside a terminal.
 
 ** Optional extras
 The Haskell layer supports some extra features that can be enabled through
@@ -145,6 +140,11 @@ See examples [[https://github.com/chrisdone/hindent#example][here]]
   (setq-default dotspacemacs-configuration-layers
     '((haskell :variables haskell-enable-hindent-style "johan-tibell")))
 #+END_SRC
+
+** OS X
+
+Note that =emacs.app= for OS X does not pick up =$PATH= from =~/.bashrc= or
+=~/.zshrc= when launched from outside a terminal.
 
 * Key bindings
 
