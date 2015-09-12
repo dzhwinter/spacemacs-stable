@@ -25,3 +25,4 @@
 
 (defun lua/post-init-company ()
   (add-hook 'lua-mode-hook 'company-mode))
+  ;; (spacemacs|add-company-hook lua-mode))
