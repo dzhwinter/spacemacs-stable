@@ -35,7 +35,7 @@
 (defun python/init-anaconda-mode ()
   (use-package anaconda-mode
     :defer t
-    :init (add-hook 'python-mode-hook 'anaconda-mode)
+    ;; :init (add-hook 'python-mode-hook 'anaconda-mode)
     :config
     (progn
       (evil-leader/set-key-for-mode 'python-mode
